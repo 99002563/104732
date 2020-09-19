@@ -2,7 +2,7 @@
 #include<stdio.h>
  int main(){
  long int a,b;
- scanf("%d%d",&a,&b);
+ scanf("%lu%lu",&a,&b);
  printf("Sum is %lu",sum(a,b));
  printf("Sum is %lu",sub(a,b));
  printf("Sum is %lu",mul(a,b));

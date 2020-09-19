@@ -1,7 +1,6 @@
 #include "calculator.h"
 #include<stdio.h>
-#include<math.h>
-#include<stdlib.h>
+
  int main(){
  long int a,b;
  scanf("%lu%lu",&a,&b);

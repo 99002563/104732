@@ -1,10 +1,16 @@
-@@ -13,9 +13,6 @@ jobs:
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
-
-    - name: Go-CI
-    - uses: rk0dd/Go-CI@2.0.0
-
+    
     - name: make
       run: make 

@@ -1,20 +1,20 @@
 #include "calculator.h"
 
-int sum(int a,int b){
+long int sum(){
 return(a+b);
 }
-int sub(int a,int b){
+int sub(long int a,long int b){
 return(a-b);
 }
-int mul(int a,int b){
+int mul(long int a,long int b){
 return(a*b);
 }
-int div(int a,int b){
+int div(long int a,long int b){
 return(a/b);
 }
-int mod(int a,int b){
+int mod(long int a,long int b){
 return(a%b);
 }
-int who(int a,int b){
+int who(long int a,long int b){
 return((a*a)+(b*b)+(2*a*b));
 }

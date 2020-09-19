@@ -33,7 +33,7 @@ double evaluate(char expr[])
             if (!checknumber(expr[i + 1])) 
             {
                 numbuf[nbi] = 0; nbi = 0;
-                scanf(numbuf, "%lf", &numbers[nsi++]); 
+                sscanf(numbuf, "%lf", &numbers[nsi++]); 
             }
         }
         else

@@ -1,6 +1,6 @@
 #include "calculator.h"
 
-long int sum(){
+long int sum(long int a,long int b){
 return(a+b);
 }
 long int sub(long int a,long int b){
